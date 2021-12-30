@@ -1,0 +1,9 @@
+name: iolite
+version: 0.1.0
+
+authors:
+  - Eric Will <rakaur@malkier.net>
+
+crystal: 1.2.2
+
+license: MIT
