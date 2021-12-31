@@ -1,6 +1,5 @@
-# TODO: Write documentation for `Iolite`
+require "./client"
+
 module Iolite
   VERSION = "0.1.0"
-
-  # TODO: Put your code here
 end
