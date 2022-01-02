@@ -7,3 +7,7 @@ authors:
 crystal: 1.2.2
 
 license: MIT
+
+targets:
+  iolite:
+    main: src/iolite.cr

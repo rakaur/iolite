@@ -2,16 +2,14 @@ class Iolite::Client
   getter server, port, password, nickname, username, realname
 
   def initialize(
-    @server : String?,
+    @server : String,
     @port : Int32? = 6667,
-    @nickname : String? = "iolite",
     @password : String? = nil,
+
+    @nickname : String? = "iolite",
     @username : String? = "iolite",
     @realname : String? = "iolite"
   )
-    unless @server
-      raise NoServerError.new
-    end
   end
 
   class NoServerError < Exception; end
